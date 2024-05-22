@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:ital,wght@1,300&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0,5px;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+background-color: antiquewhite;
+padding: 20px 10px;
+box-shadow: 0 0 20px rgba(0,0, 0, 0.1);
+}
+
+.menu a {
+    text-decoration: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    padding: 0 20px;
+    transition: 0.5;
+}
+
+.menu a:hover {
+    color:darkslateblue;
+
+}
+
+section { 
+    margin-top: 150px;
+    background-color:peachpuff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.1) ;
+}
+
+.style_btn {
+    padding: 10px 20px ;
+    color: #fff;
+    background-color:lightslategrey ;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.error {
+color: red;
+}
+.pseudo form {
+    display: flex;
+    flex-direction: column;
+}
+
+.pseudo form label {
+    margin-top: 10px;
+}
+
+
+.pseudo form input {
+    outline: 0;
+    border: 0 ;
+    border-bottom: 1px solid #999;
+    margin: 20px 0;
+    width: 350px;
+    padding: 10px 0;
+}
